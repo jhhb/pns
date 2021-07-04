@@ -1,0 +1,8 @@
+* pns
+misc. programs and scripts
+
+** get-scratch-files
+- copy, organize, JetBrains scratch files across apps into one place.
+
+** commands-by-frequency
+- get commands sorted by frequency
