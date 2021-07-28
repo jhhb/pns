@@ -21,7 +21,7 @@ function run() {
 	file=$(basename "$file_path")
 	app_path="$OUT_DIR/$dir"
 
-	if [ "$dry_run" ]; then
+	if  "$dry_run" ; then
   	    echo "[dry_run] mkdir -p $app_path"
 	    echo "[dry_run] cp $file_path $app_path/$file"
         else
