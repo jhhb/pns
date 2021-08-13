@@ -56,4 +56,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 /out/
-/.idea/
+
+.DS_Store
+.idea/

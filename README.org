@@ -6,3 +6,9 @@ misc. programs and scripts
 
 ** commands-by-frequency
 - get commands sorted by frequency
+
+** anki_cloze_cards
+- give a path to a (specially structured*) file of Greek vocab JSON and generate
+a plaintext file of tab-separated Anki cloze cards.
+- see: `make vocab` and `make cloze`
+*** TODO - add file writing support into Ruby rather than the Makefile
