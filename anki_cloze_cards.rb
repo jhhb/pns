@@ -21,7 +21,7 @@ def make_card(word:, unit_number:)
   c1_contents = [l, r, added].compact.reject(&:empty?).join(", ")
   c2_contents = meaning.to_s
   extra_field = deriv.empty? ? "___leftblank___" : "mnemonic - #{deriv}"
-  translation_field = "Translate:<br>{{c1::#{c1_contents}}}<br><br>{{c2::#{c2_contents}}}"
+  translation_field = "Translate:<br><br>{{c1::#{c1_contents}}}<br><br>{{c2::#{c2_contents}}}"
   tags_field = [
     "mastronarde",
     "ch#{unit_number}",
